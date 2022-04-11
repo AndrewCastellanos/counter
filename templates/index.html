@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <style>
+            body{
+                text-align: center;
+                margin: 20px;
+                padding: 50px;
+            }
+        </style>
+        <h1>Counter<h1>
+        <p>{{how_many}} times</p>
+        
+        <form action='/' method='post'>
+            <button name='adnum' value="2">+1</button>
+            <button name='adnum' value="3">+2</button>
+            <button name='adnum' value="1">Destroy Session</button>
+            <p>how many: <input type="text" name="adnum"/></p>
+            <input type='submit'/>
+        </form>
+</body>
+</html>
